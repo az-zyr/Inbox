@@ -11,20 +11,17 @@ Basic Ethereum smart contract example that allows you to store and retrieve mess
 
 ## Getting Started
 
-1. **Clone the repository**
-git clone <repository-url>
+1. **Install dependencies** ```npm install```
 
-2. **Install dependencies**
-npm install
+2. **Set up your environment variables**
 
-3. **Set up your environment variables**
 Create a `.env` file with your mnemonic and Infura API key:
-MNEMONIC="your_mnemonic_here"
-INFURA_API_KEY="your_infura_api_key_here"
 
-3. **Test the smart contract**
+```
+MNEMONIC="your_metamask_mnemonic"
+INFURA_API_KEY="your_infura_api_key"
+```
 
-4. **Deploy the smart contract**
-node deploy.js
+3. **Test the smart contract** ```npm run test```
 
-Feel free to contribute, open issues, or suggest improvements. Happy coding!
+4. **Deploy the smart contract** ```node deploy.js```
